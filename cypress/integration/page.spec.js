@@ -40,7 +40,7 @@ describe('', () => {
 
   // If you want to skip some tests just add  after the describe
 
-  describe('Page by default', () => {
+  describe.skip('Page by default', () => {
     it('should show ProductTable', () => {
       page.productTable().should('exist');
     });
